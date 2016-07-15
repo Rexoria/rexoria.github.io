@@ -797,6 +797,11 @@ p {
     background-color: transparent;
     color: #fff;
   }
+  .brand-link.w--current {
+    display: block;
+    margin-right: 29%;
+    margin-left: 29%;
+  }
   .menu-text {
     margin-right: 3px;
     padding: 2px;
@@ -811,6 +816,9 @@ p {
   }
   .menu-icon {
     float: left;
+  }
+  .tabs-menu {
+    padding-left: 28%;
   }
   .namncolumn {
     padding-top: 8%;
@@ -847,6 +855,10 @@ p {
   .menu-button {
     margin-right: 7px;
   }
+  .brand-link.w--current {
+    margin-right: 123.078px;
+    margin-left: 123.078px;
+  }
   .album-list {
     margin-bottom: 60px;
   }
@@ -859,6 +871,9 @@ p {
     padding-top: 16px;
     padding-bottom: 16px;
   }
+  .tabs-menu {
+    padding-left: 23%;
+  }
 }
 
 @media (max-width: 479px) {
@@ -866,8 +881,20 @@ p {
     font-size: 39px;
     line-height: 52px;
   }
+  .subpage-background {
+    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/IMG_9168 grunge.jpg');
+    background-image: linear-gradient(180deg, null, null), url('../images/IMG_9168 grunge.jpg');
+    background-position: 0px 0px, 50% 0px;
+  }
+  .page-title {
+    margin-bottom: 50px;
+  }
   .contact-row {
     padding-bottom: 16px;
+  }
+  .brand-link.w--current {
+    margin-right: 71.078px;
+    margin-left: 71.078px;
   }
   .hero-container {
     padding-right: 13px;
@@ -878,6 +905,23 @@ p {
     margin-right: 0px;
     margin-bottom: 12px;
     margin-left: 0px;
+  }
+  .tabs-menu {
+    padding-left: 0%;
+  }
+  .social-media {
+    top: 0%;
+    right: 0%;
+    display: none;
+  }
+  .about-paragraph {
+    font-size: 13px;
+  }
+  .footer-mobile {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
   }
 }
 
