@@ -143,7 +143,7 @@ p {
   background-color: #000;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168 grunge.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168 grunge.jpg');
-  background-position: 0px 0px, 50% -99px;
+  background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
@@ -830,6 +830,47 @@ p {
   .hero-heading {
     font-size: 61px;
   }
+  .subpage-background {
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168 grunge.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168 grunge.jpg');
+    background-position: 0px 0px, 50% 0px;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+  }
+  .subpage-background.members {
+    background-image: -webkit-linear-gradient(90deg, #000, transparent), url('../images/DSC_5044.jpg');
+    background-image: linear-gradient(0deg, #000, transparent), url('../images/DSC_5044.jpg');
+    background-position: 0px 0px, 50% 0px;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+  }
+  .subpage-background.gallery {
+    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/people-party-dancing-music.jpg');
+    background-image: linear-gradient(180deg, null, null), url('../images/people-party-dancing-music.jpg');
+    background-size: auto, contain;
+    background-attachment: scroll, scroll;
+  }
+  .subpage-background.tour {
+    background-image: -webkit-linear-gradient(90deg, #000, transparent 49%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
+    background-image: linear-gradient(0deg, #000, transparent 49%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
+    background-position: 0px 0px, 0px 0px, 50% 0px;
+    background-size: auto, auto, cover;
+    background-repeat: repeat, repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll;
+  }
+  .subpage-background.about {
+    background-image: -webkit-linear-gradient(90deg, #000, transparent 42%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/DSC_5090 (1).jpg');
+    background-image: linear-gradient(0deg, #000, transparent 42%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/DSC_5090 (1).jpg');
+    background-position: 0px 0px, 0px 0px, 50% 0px;
+    background-size: auto, auto, cover;
+    background-repeat: repeat, repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll;
+  }
+  .section {
+    background-color: transparent;
+  }
   .footer {
     padding-right: 14px;
     padding-left: 14px;
@@ -877,14 +918,31 @@ p {
 }
 
 @media (max-width: 479px) {
+  .nav-menu {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .nav-link {
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+  }
+  .nav-link.w--current {
+    margin-top: 10px;
+    font-size: 14px;
+  }
   .hero-heading {
     font-size: 39px;
     line-height: 52px;
   }
   .subpage-background {
-    background-image: -webkit-linear-gradient(270deg, null, null), url('../images/IMG_9168 grunge.jpg');
-    background-image: linear-gradient(180deg, null, null), url('../images/IMG_9168 grunge.jpg');
-    background-position: 0px 0px, 50% 0px;
+    background-image: -webkit-linear-gradient(90deg, #000 26%, transparent), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168 grunge.jpg');
+    background-image: linear-gradient(0deg, #000 26%, transparent), linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168 grunge.jpg');
+    background-position: 0px 0px, 0px 0px, 50% 0px;
+    background-size: auto, auto, contain;
+    background-repeat: repeat, repeat, no-repeat;
+    background-attachment: scroll, scroll, scroll;
   }
   .page-title {
     margin-bottom: 50px;
@@ -897,17 +955,30 @@ p {
     margin-left: 71.078px;
   }
   .hero-container {
+    margin-top: 19vh;
     padding-right: 13px;
     padding-left: 13px;
   }
   .button.big {
-    width: 100%;
+    width: 60%;
     margin-right: 0px;
     margin-bottom: 12px;
     margin-left: 0px;
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  .footer-heading {
+    font-size: 13px;
+  }
+  .martin-footer {
+    margin-top: 7px;
   }
   .tabs-menu {
     padding-left: 0%;
+  }
+  .hero-intro-text {
+    margin-top: 0px;
+    font-size: 30px;
   }
   .social-media {
     top: 0%;
@@ -922,6 +993,7 @@ p {
     left: 0px;
     right: 0px;
     bottom: 0px;
+    padding-top: 0px;
   }
 }
 
