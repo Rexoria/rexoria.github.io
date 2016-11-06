@@ -831,6 +831,12 @@ p {
   text-align: left;
 }
 
+.video-border {
+  border-style: solid none;
+  border-width: 30px 5px;
+  border-color: #000;
+}
+
 @media (max-width: 991px) {
   .nav-menu {
     padding-top: 18px;
