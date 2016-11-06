@@ -168,8 +168,8 @@ p {
 }
 
 .subpage-background.tour {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin_1.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin_1.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -207,6 +207,10 @@ p {
 }
 
 .page-title.intervju {
+  margin-top: 86px;
+}
+
+.page-title.pastgigs {
   margin-top: 86px;
 }
 
@@ -818,6 +822,15 @@ p {
   padding-right: 15px;
 }
 
+.pastgigs-paragraph {
+  display: block;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  font-size: 14px;
+  line-height: 38px;
+  text-align: left;
+}
+
 @media (max-width: 991px) {
   .nav-menu {
     padding-top: 18px;
@@ -905,8 +918,8 @@ p {
     background-attachment: scroll, scroll;
   }
   .subpage-background.tour {
-    background-image: -webkit-linear-gradient(90deg, #000, transparent 49%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
-    background-image: linear-gradient(0deg, #000, transparent 49%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
+    background-image: -webkit-linear-gradient(90deg, #000, transparent 49%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin_1.jpg');
+    background-image: linear-gradient(0deg, #000, transparent 49%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin_1.jpg');
     background-position: 0px 0px, 0px 0px, 50% 0px;
     background-size: auto, auto, cover;
     background-repeat: repeat, repeat, no-repeat;
@@ -974,6 +987,12 @@ p {
   .news-paragraph {
     font-size: 11px;
     line-height: 15px;
+  }
+  .pastgigs-paragraph {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -1063,6 +1082,10 @@ p {
   }
   .news-column {
     display: none;
+  }
+  .pastgigs-paragraph {
+    width: 90%;
+    font-size: 11px;
   }
 }
 
