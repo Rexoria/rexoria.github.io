@@ -214,6 +214,10 @@ p {
   margin-top: 86px;
 }
 
+.page-title.newsletter {
+  margin-bottom: 70px;
+}
+
 .section {
   padding-right: 2.5%;
   padding-bottom: 50px;
@@ -520,6 +524,12 @@ p {
   color: #fff;
 }
 
+.button.contact.subscribe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .content-wrapper {
   margin-top: 78px;
 }
@@ -581,6 +591,11 @@ p {
 
 .field {
   font-weight: 300;
+}
+
+.field.newsletter {
+  display: block;
+  text-align: center;
 }
 
 .input {
@@ -777,10 +792,11 @@ p {
 }
 
 .news-column {
-  margin-top: -60px;
+  height: 100%;
+  margin-top: -13%;
   padding-top: 0px;
   border: 2px solid #fff;
-  background-color: rgba(0, 0, 0, .35);
+  background-color: rgba(0, 0, 0, .57);
 }
 
 .news-paragraph {
@@ -800,6 +816,7 @@ p {
 }
 
 .news-slider {
+  height: 100%;
   background-color: transparent;
 }
 
@@ -811,11 +828,19 @@ p {
 
 .icon-news {
   margin-right: 0px;
+  margin-left: 55px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
 }
 
 .icon-news.left {
+  width: 0px;
   max-width: 0px;
-  margin-left: 0px;
+  margin-left: -5px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
 }
 
 .news-row {
@@ -824,8 +849,11 @@ p {
 
 .pastgigs-paragraph {
   display: block;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-style: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #fff;
   font-size: 14px;
   line-height: 38px;
   text-align: left;
@@ -835,6 +863,29 @@ p {
   border-style: solid none;
   border-width: 30px 5px;
   border-color: #000;
+}
+
+.pastgigs-row {
+  border-bottom: 1px solid #fff;
+}
+
+.text-field-newsletter {
+  display: block;
+  width: 40%;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+}
+
+.paragraph-newsletter {
+  display: block;
+  width: 55%;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  font-size: 19px;
+  font-weight: 300;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -890,6 +941,9 @@ p {
   .namncolumn {
     padding-top: 8%;
     padding-bottom: 0px;
+  }
+  .news-column {
+    margin-top: -10%;
   }
   .news-paragraph {
     font-size: 13px;
@@ -1000,6 +1054,12 @@ p {
     margin-right: auto;
     margin-left: auto;
   }
+  .text-field-newsletter {
+    width: 50%;
+  }
+  .paragraph-newsletter {
+    width: 65%;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1092,6 +1152,12 @@ p {
   .pastgigs-paragraph {
     width: 90%;
     font-size: 11px;
+  }
+  .text-field-newsletter {
+    width: 80%;
+  }
+  .paragraph-newsletter {
+    width: 80%;
   }
 }
 

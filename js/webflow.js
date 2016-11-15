@@ -733,7 +733,7 @@
 	      doBranding = true;
 	    }
 
-	    if (doBranding) {
+	    if (doBranding && !Webflow.env('editor')) {
 	      var $branding = $('<div></div>');
 	      var $link = $('<a></a>');
 	      $link.attr('href', 'http://webflow.com?utm_campaign=brandjs');
