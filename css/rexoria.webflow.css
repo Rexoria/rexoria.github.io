@@ -192,6 +192,7 @@ p {
 }
 
 .page-title {
+  display: none;
   margin-top: 0px;
   margin-bottom: 86px;
   font-family: Homenaje, sans-serif;
@@ -782,6 +783,7 @@ p {
 }
 
 .about-paragraph {
+  margin-bottom: 300px;
   padding-right: 12%;
   padding-left: 12%;
   font-size: 18px;
@@ -885,6 +887,20 @@ p {
   margin-left: auto;
   font-size: 19px;
   font-weight: 300;
+  text-align: center;
+}
+
+.news-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.interviews-heading {
+  display: block;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
   text-align: center;
 }
 
