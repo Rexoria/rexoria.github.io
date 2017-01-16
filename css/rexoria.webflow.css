@@ -192,7 +192,7 @@ p {
 }
 
 .page-title {
-  display: none;
+  display: block;
   margin-top: 0px;
   margin-bottom: 86px;
   font-family: Homenaje, sans-serif;
@@ -783,10 +783,14 @@ p {
 }
 
 .about-paragraph {
-  margin-bottom: 300px;
+  margin-bottom: 50px;
   padding-right: 12%;
   padding-left: 12%;
   font-size: 18px;
+}
+
+.about-paragraph.interviews {
+  margin-bottom: 250px;
 }
 
 .namncolumn {
@@ -902,6 +906,10 @@ p {
   margin-bottom: 25px;
   margin-left: auto;
   text-align: center;
+}
+
+.link-interviews {
+  color: #fff;
 }
 
 @media (max-width: 991px) {
