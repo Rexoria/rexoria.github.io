@@ -1141,6 +1141,11 @@ p {
     padding: 8px 15px;
     font-size: 12px;
   }
+  .button.big.news {
+    background-color: rgba(248, 199, 41, .7);
+    color: #fff;
+    font-weight: 500;
+  }
   .footer-heading {
     font-size: 13px;
   }
