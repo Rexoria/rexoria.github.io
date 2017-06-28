@@ -55,11 +55,22 @@ p {
 }
 
 .nav-menu {
+  position: static;
+  display: block;
+  overflow: visible;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   text-align: center;
 }
 
 .nav-link {
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 26px 13px;
   color: hsla(0, 0%, 100%, .62);
   font-size: 13px;
@@ -90,7 +101,11 @@ p {
 }
 
 .nav-bar {
+  position: static;
+  display: block;
   margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: transparent;
 }
 
@@ -141,8 +156,8 @@ p {
 
 .subpage-background {
   background-color: #000;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168-grunge-2.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168-grunge-2.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/HOME.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url('../images/HOME.jpg');
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -151,16 +166,18 @@ p {
 }
 
 .subpage-background.members {
-  background-image: url('../images/DSC_5045.jpg');
-  background-position: 50% 0px;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/Members.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/Members.jpg');
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
 }
 
 .subpage-background.gallery {
   background-color: #000;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('../images/people-party-dancing-music.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('../images/people-party-dancing-music.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/Members.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/Members.jpg');
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -168,8 +185,8 @@ p {
 }
 
 .subpage-background.tour {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/TOUR.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/TOUR.jpg');
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -177,9 +194,27 @@ p {
 }
 
 .subpage-background.about {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/DSC_5090-1.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/DSC_5090-1.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/ABOUT.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/ABOUT.jpg');
   background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+}
+
+.subpage-background.news {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HOME.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HOME.jpg');
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+}
+
+.subpage-background.mailing-list {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/Mailing-List.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/Mailing-List.jpg');
+  background-position: 0px 0px, 50% 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
@@ -351,6 +386,7 @@ p {
 
 .small-grey-text.instrument {
   font-size: 20px;
+  line-height: 22px;
   font-weight: 300;
 }
 
@@ -403,7 +439,7 @@ p {
 }
 
 .contact-link {
-  display: inline-block;
+  display: block;
   margin-top: 5px;
   color: #999;
   text-decoration: none;
@@ -476,15 +512,22 @@ p {
 }
 
 .brand-link {
-  position: absolute;
+  position: static;
   z-index: 1;
-  margin-top: -14px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  float: none;
 }
 
 .brand-link.w--current {
+  position: static;
   left: 0px;
+  display: block;
+  float: none;
 }
 
 .hero-container {
@@ -533,6 +576,10 @@ p {
 
 .content-wrapper {
   margin-top: 78px;
+}
+
+.content-wrapper.frsta {
+  margin-top: 350px;
 }
 
 .footer-text {
@@ -759,6 +806,7 @@ p {
 
 .dropdown-link.nav-link {
   background-color: transparent;
+  line-height: 24px;
 }
 
 .dropdown-list.w--open {
@@ -794,7 +842,7 @@ p {
 }
 
 .namncolumn {
-  padding-top: 8%;
+  padding-top: 0%;
 }
 
 .news-column {
@@ -896,8 +944,13 @@ p {
 
 .news-image {
   display: block;
+  margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.news-image.top {
+  margin-top: 0px;
 }
 
 .interviews-heading {
@@ -910,6 +963,61 @@ p {
 
 .link-interviews {
   color: #fff;
+}
+
+.pics {
+  display: block;
+  width: auto;
+  max-height: 200px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-header {
+  position: static;
+  display: block;
+  margin: 0px auto -15px;
+  float: none;
+}
+
+.container {
+  display: block;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-top: 1px none dimgrey;
+}
+
+.div-block {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: none;
+}
+
+.heading-cd {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.paragraph.references {
+  line-height: 20px;
+  font-style: italic;
+}
+
+.videos-top {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 991px) {
@@ -963,7 +1071,7 @@ p {
     padding-left: 28%;
   }
   .namncolumn {
-    padding-top: 8%;
+    padding-top: 0%;
     padding-bottom: 0px;
   }
   .news-column {
@@ -980,16 +1088,16 @@ p {
     font-size: 61px;
   }
   .subpage-background {
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168-grunge.jpg');
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168-grunge.jpg');
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/HOME.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/HOME.jpg');
     background-position: 0px 0px, 50% 0px;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, scroll;
   }
   .subpage-background.members {
-    background-image: -webkit-linear-gradient(90deg, #000, transparent), url('../images/DSC_5044.jpg');
-    background-image: linear-gradient(0deg, #000, transparent), url('../images/DSC_5044.jpg');
+    background-image: -webkit-linear-gradient(90deg, #000, transparent), url('../images/Members.jpg');
+    background-image: linear-gradient(0deg, #000, transparent), url('../images/Members.jpg');
     background-position: 0px 0px, 50% 0px;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -1002,16 +1110,16 @@ p {
     background-attachment: scroll, scroll;
   }
   .subpage-background.tour {
-    background-image: -webkit-linear-gradient(90deg, #000, transparent 49%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin_1.jpg');
-    background-image: linear-gradient(0deg, #000, transparent 49%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/martin_1.jpg');
+    background-image: -webkit-linear-gradient(90deg, #000, transparent 49%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/TOUR.jpg');
+    background-image: linear-gradient(0deg, #000, transparent 49%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/TOUR.jpg');
     background-position: 0px 0px, 0px 0px, 50% 0px;
     background-size: auto, auto, cover;
     background-repeat: repeat, repeat, no-repeat;
     background-attachment: scroll, scroll, scroll;
   }
   .subpage-background.about {
-    background-image: -webkit-linear-gradient(90deg, #000, transparent 42%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/DSC_5090-1.jpg');
-    background-image: linear-gradient(0deg, #000, transparent 42%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/DSC_5090-1.jpg');
+    background-image: -webkit-linear-gradient(90deg, #000, transparent 42%), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/ABOUT.jpg');
+    background-image: linear-gradient(0deg, #000, transparent 42%), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/ABOUT.jpg');
     background-position: 0px 0px, 0px 0px, 50% 0px;
     background-size: auto, auto, cover;
     background-repeat: repeat, repeat, no-repeat;
@@ -1084,6 +1192,9 @@ p {
   .paragraph-newsletter {
     width: 65%;
   }
+  .logo-header {
+    max-width: 70%;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1110,8 +1221,8 @@ p {
     display: none;
   }
   .subpage-background {
-    background-image: -webkit-linear-gradient(90deg, #000 26%, transparent), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168-grunge.jpg');
-    background-image: linear-gradient(0deg, #000 26%, transparent), linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/IMG_9168-grunge.jpg');
+    background-image: -webkit-linear-gradient(90deg, #000 26%, transparent), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/HOME.jpg');
+    background-image: linear-gradient(0deg, #000 26%, transparent), linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/HOME.jpg');
     background-position: 0px 0px, 0px 0px, 50% 0px;
     background-size: auto, auto, contain;
     background-repeat: repeat, repeat, no-repeat;
@@ -1145,6 +1256,9 @@ p {
     background-color: rgba(248, 199, 41, .7);
     color: #fff;
     font-weight: 500;
+  }
+  .content-wrapper.frsta {
+    margin-top: 83px;
   }
   .footer-heading {
     font-size: 13px;
@@ -1187,6 +1301,11 @@ p {
   }
   .paragraph-newsletter {
     width: 80%;
+  }
+  .image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
