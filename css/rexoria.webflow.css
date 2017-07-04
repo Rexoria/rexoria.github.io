@@ -1070,10 +1070,15 @@ p {
 }
 
 .sm-header {
-  position: absolute;
+  position: static;
   top: 80px;
   right: 190px;
   display: inline-block;
+  margin-top: -175px;
+  margin-right: auto;
+  margin-left: auto;
+  float: right;
+  clear: none;
 }
 
 .row {
@@ -1147,6 +1152,8 @@ p {
   }
   .sm-header {
     right: 12px;
+    margin-top: 10px;
+    float: none;
   }
 }
 
@@ -1266,6 +1273,8 @@ p {
     top: 55px;
     right: -21px;
     display: block;
+    margin-top: 15px;
+    margin-left: -92px;
     -webkit-transform: scale(0.69);
     -ms-transform: scale(0.69);
     transform: scale(0.69);
@@ -1383,7 +1392,8 @@ p {
     margin-left: auto;
   }
   .sm-header {
-    display: none;
+    position: static;
+    display: block;
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
