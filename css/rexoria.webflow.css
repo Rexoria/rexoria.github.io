@@ -55,12 +55,9 @@ p {
 }
 
 .nav-menu {
-  position: static;
-  display: block;
-  overflow: visible;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
-  float: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -101,8 +98,6 @@ p {
 }
 
 .nav-bar {
-  position: static;
-  display: block;
   margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
@@ -1158,6 +1153,9 @@ p {
 }
 
 @media (max-width: 767px) {
+  .nav-bar {
+    display: block;
+  }
   .hero-heading {
     font-size: 61px;
   }
@@ -1225,7 +1223,8 @@ p {
     margin-bottom: 20px;
   }
   .menu-button {
-    margin-right: 7px;
+    display: block;
+    float: right;
   }
   .brand-link.w--current {
     margin-right: 123.078px;
@@ -1392,11 +1391,11 @@ p {
     margin-left: auto;
   }
   .sm-header {
-    position: static;
     display: block;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
+    margin-left: -55px;
+    -webkit-transform: scale(0.65);
+    -ms-transform: scale(0.65);
+    transform: scale(0.65);
   }
 }
 
