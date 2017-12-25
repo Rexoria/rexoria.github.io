@@ -955,6 +955,12 @@ p {
   border-color: #000 #000 #fff;
 }
 
+.news-image.sidotextnews {
+  max-width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .interviews-heading {
   display: block;
   margin-right: auto;
@@ -1049,6 +1055,10 @@ p {
   padding-bottom: 50px;
 }
 
+.paragraph-2.sidotext {
+  margin-left: 20px;
+}
+
 .news-heading {
   margin-top: 60px;
 }
@@ -1082,6 +1092,36 @@ p {
 
 .row-2 {
   display: none;
+}
+
+.flag-link-pic {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+}
+
+.flag-link-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading {
+  text-transform: uppercase;
+}
+
+.link {
+  color: hsla(0, 0%, 100%, .94);
+}
+
+.link.w--current {
+  color: #fff;
+  text-shadow: 1px 1px 50px #b1b1b1;
+}
+
+.column {
+  position: static;
 }
 
 @media (max-width: 991px) {
