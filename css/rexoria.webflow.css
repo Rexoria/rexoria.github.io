@@ -249,6 +249,11 @@ p {
   margin-bottom: 70px;
 }
 
+.page-title.vid-headline {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
 .section {
   padding-right: 2.5%;
   padding-bottom: 50px;
@@ -833,7 +838,7 @@ p {
 }
 
 .about-paragraph.interviews {
-  margin-bottom: 250px;
+  margin-bottom: 80px;
 }
 
 .namncolumn {
@@ -1141,6 +1146,24 @@ p {
   margin-top: 0px;
 }
 
+.discography-row {
+  padding-top: 80px;
+}
+
+.lightbox-link {
+  max-width: 100%;
+}
+
+.lightbox-link.interview-vid-top {
+  margin-bottom: 100px;
+}
+
+.image-6 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (max-width: 991px) {
   .nav-menu {
     padding-top: 18px;
@@ -1335,6 +1358,11 @@ p {
     -ms-transform: scale(0.69);
     transform: scale(0.69);
   }
+  .discography-spotify-itunes-link {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .discography-album-heading {
     text-align: center;
   }
@@ -1342,7 +1370,39 @@ p {
     text-align: center;
   }
   .row-3 {
-    padding-left: 145px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+  }
+  .buy-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .column-2 {
+    display: block;
+    padding-left: 0px;
+  }
+  .image-2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-3 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-4 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-5 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -1464,7 +1524,7 @@ p {
     transform: scale(0.65);
   }
   .row-3 {
-    padding-left: 60px;
+    padding-left: 0px;
   }
 }
 
